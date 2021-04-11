@@ -30,9 +30,9 @@ module.exports = {
                 use: 'babel-loader',
             },
             {
-                test: /\.css$/,
+                test: /\.scss$/,
                 exclude: /node_modules/,
-                use: 'babel-loader',
+                use: ['style-loader', 'css-loader', 'sass-loader']
             }
         ],
     }
