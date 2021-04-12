@@ -1,5 +1,7 @@
 import { RepositoryItem } from "./RespositoryItem";
 
+import '../styles/repositories.scss';
+
 const repository = {
     name: "Bhaskalc",
     description: "Calculator",
