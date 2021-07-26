@@ -1,9 +1,12 @@
 {
+  "homepage": "https://ruymon.github.io/github_explorer",
   "name": "01-github-explorer",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "dev": "webpack serve",
     "build": "cross-env NODE_ENV=production webpack"
   },
